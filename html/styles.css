@@ -1,0 +1,75 @@
+body, html {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+a {
+	transition: color .3s;
+	color: #265C83;
+	text-decoration:none;
+}
+
+a:link,
+a:visited { color: #265C83; }
+a:hover   { color: #7FDBFF; }
+a:active  {
+	transition: color .3s;
+	color: #007BE6;
+}
+
+.settings {
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow-y: scroll;
+	background: #EEE;
+}
+
+.settings-container {
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 7px;
+    background: #FFF;
+    border: 1px solid #AAA;
+}
+
+.settings .settings-container .setting-group {
+    padding-top: 15px;
+	padding-bottom: 15px;
+    font-size: 1.1em;
+}
+
+.setting-credits {
+    font-size: 0.9em;
+    border-top: 1px solid #DDD;
+}
+
+.line-top {
+    border-top: 1px solid #DDD;
+}
+
+.settings input {
+    background: #EEE;
+    border-radius: 3px;
+    font-size: 1em;
+    width: 3em;
+}
+
+.settings .setting-button {
+  border-radius: 10px;
+  color: #000;
+  font-size: 1em;
+  background: #f7d734;
+  padding: 8px 18px 8px 18px;
+  text-decoration: none;
+}
+
+.setting-button:hover {
+  background: #ffeb85;
+  text-decoration: none;
+}
